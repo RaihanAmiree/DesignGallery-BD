@@ -86,11 +86,7 @@ const Navbar = () => {
                 <CartBadge></CartBadge>
               </NavLink>
 
-              {/* Account / Login Section
-              <NavLink to="/login" className="flex items-center gap-2 hover:bg-gray-100 px-4 py-2 rounded-full transition-colors border border-gray-200 ml-2">
-                <IoPersonOutline className="text-2xl text-gray-700" />
-                <span className="text-sm font-semibold text-gray-800 select-none">Login</span>
-              </NavLink>  */}
+             
             </div>
           </div>
 
@@ -108,7 +104,7 @@ const Navbar = () => {
             <IoClose />
           </button>
           <nav className="flex flex-col gap-6 text-xl font-semibold">
-            {['Home', 'Shop', 'About','Contact', 'Wishlist', 'Cart', 'Login'].map((item) => (
+            {['Home', 'Shop', 'About','Contact', 'Wishlist', 'Cart'].map((item) => (
               <NavLink 
                 key={item}
                 to={item === 'Home' ? '/' : `/${item.toLowerCase()}`}
