@@ -1,0 +1,353 @@
+[
+  {
+    "id": 1,
+    "title": "Printed Bags",
+    "price": 6.5,
+    "category": "Custom Products",
+    "description": "High-quality shoes product designed for everyday use with durability and modern style.",
+    "thumbnail": "/Products_Img/1.jpg",
+    "images": [
+      "/Products_Img/1.jpg",
+      "https://images.pexels.com/photos/267202/pexels-photo-267202.jpeg",
+      "https://images.pexels.com/photos/1598505/pexels-photo-1598505.jpeg",
+      "https://images.pexels.com/photos/631986/pexels-photo-631986.jpeg"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Pens with Branding",
+    "price": 8.0,
+    "category": "Custom Products",
+    "description": "High-quality electronics product designed for everyday use with durability and modern style.",
+    "thumbnail": "https://images.pexels.com/photos/373945/pexels-photo-373945.jpeg",
+    "images": [
+      "https://images.pexels.com/photos/1054397/pexels-photo-1054397.jpeg",
+      "https://images.pexels.com/photos/788946/pexels-photo-788946.jpeg",
+      "https://images.pexels.com/photos/479026/pexels-photo-479026.jpeg",
+      "https://images.pexels.com/photos/1279107/pexels-photo-1279107.jpeg"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Customize T-shirt",
+    "price": 9.5,
+    "category": "Custom Products",
+    "description": "High-quality home & kitchen product designed for everyday use with durability and modern style.",
+    "thumbnail": "https://images.pexels.com/photos/275682/pexels-photo-275682.jpeg",
+    "images": [
+      "https://images.pexels.com/photos/1643383/pexels-photo-1643383.jpeg",
+      "https://images.pexels.com/photos/1358912/pexels-photo-1358912.jpeg",
+      "https://images.pexels.com/photos/1435907/pexels-photo-1435907.jpeg",
+      "https://images.pexels.com/photos/276528/pexels-photo-276528.jpeg"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Mug",
+    "price": 11.0,
+    "category": "Custom Products",
+    "description": "High-quality toys & games product designed for everyday use with durability and modern style.",
+    "thumbnail": "https://images.pexels.com/photos/209755/pexels-photo-209755.jpeg",
+    "images": [
+      "https://images.pexels.com/photos/3661352/pexels-photo-3661352.jpeg",
+      "https://images.pexels.com/photos/163064/play-dough-toys-childhood-colorful-163064.jpeg",
+      "https://images.pexels.com/photos/3905857/pexels-photo-3905857.jpeg",
+      "https://images.pexels.com/photos/3662845/pexels-photo-3662845.jpeg"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Lanyards & Ribbons",
+    "price": 12.5,
+    "category": "Custom Products",
+    "description": "High-quality books & stationery product designed for everyday use with durability and modern style.",
+    "thumbnail": "https://images.pexels.com/photos/590493/pexels-photo-590493.jpeg",
+    "images": [
+      "https://images.pexels.com/photos/159711/books-bookstore-book-reading-159711.jpeg",
+      "https://images.pexels.com/photos/256541/pexels-photo-256541.jpeg",
+      "https://images.pexels.com/photos/261909/pexels-photo-261909.jpeg",
+      "https://images.pexels.com/photos/46274/pexels-photo-46274.jpeg"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Printed Caps",
+    "price": 14.0,
+    "category": "Custom Products",
+    "description": "High-quality beauty & personal care product designed for everyday use with durability and modern style.",
+    "thumbnail": "https://images.pexels.com/photos/3952072/pexels-photo-3952072.jpeg",
+    "images": [
+      "https://images.pexels.com/photos/3373726/pexels-photo-3373726.jpeg",
+      "https://images.pexels.com/photos/3321416/pexels-photo-3321416.jpeg",
+      "https://images.pexels.com/photos/4041392/pexels-photo-4041392.jpeg",
+      "https://images.pexels.com/photos/3059609/pexels-photo-3059609.jpeg"
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Key Rings",
+    "price": 15.5,
+    "category": "Custom Products",
+    "description": "High-quality clothing product designed for everyday use with durability and modern style.",
+    "thumbnail": "https://images.pexels.com/photos/10026472/pexels-photo-10026472.jpeg",
+    "images": [
+      "https://images.pexels.com/photos/2983464/pexels-photo-2983464.jpeg",
+      "https://images.pexels.com/photos/994523/pexels-photo-994523.jpeg",
+      "https://images.pexels.com/photos/298863/pexels-photo-298863.jpeg",
+      "https://images.pexels.com/photos/428338/pexels-photo-428338.jpeg"
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Crest",
+    "price": 17.0,
+    "category": "Custom Products",
+    "description": "High-quality shoes product designed for everyday use with durability and modern style.",
+    "thumbnail": "https://images.pexels.com/photos/2529148/pexels-photo-2529148.jpeg",
+    "images": [
+      "https://images.pexels.com/photos/19090/pexels-photo.jpg",
+      "https://images.pexels.com/photos/267202/pexels-photo-267202.jpeg",
+      "https://images.pexels.com/photos/1598505/pexels-photo-1598505.jpeg",
+      "https://images.pexels.com/photos/631986/pexels-photo-631986.jpeg"
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Badge",
+    "price": 18.5,
+    "category": "Custom Products",
+    "description": "High-quality electronics product designed for everyday use with durability and modern style.",
+    "thumbnail": "https://images.pexels.com/photos/373945/pexels-photo-373945.jpeg",
+    "images": [
+      "https://images.pexels.com/photos/1054397/pexels-photo-1054397.jpeg",
+      "https://images.pexels.com/photos/788946/pexels-photo-788946.jpeg",
+      "https://images.pexels.com/photos/479026/pexels-photo-479026.jpeg",
+      "https://images.pexels.com/photos/1279107/pexels-photo-1279107.jpeg"
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Seal Stamp",
+    "price": 20.0,
+    "category": "Custom Products",
+    "description": "High-quality home & kitchen product designed for everyday use with durability and modern style.",
+    "thumbnail": "https://images.pexels.com/photos/275682/pexels-photo-275682.jpeg",
+    "images": [
+      "https://images.pexels.com/photos/1643383/pexels-photo-1643383.jpeg",
+      "https://images.pexels.com/photos/1358912/pexels-photo-1358912.jpeg",
+      "https://images.pexels.com/photos/1435907/pexels-photo-1435907.jpeg",
+      "https://images.pexels.com/photos/276528/pexels-photo-276528.jpeg"
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Visiting Card",
+    "price": 21.5,
+    "category": "Printing",
+    "description": "High-quality toys & games product designed for everyday use with durability and modern style.",
+    "thumbnail": "https://images.pexels.com/photos/209755/pexels-photo-209755.jpeg",
+    "images": [
+      "https://images.pexels.com/photos/3661352/pexels-photo-3661352.jpeg",
+      "https://images.pexels.com/photos/163064/play-dough-toys-childhood-colorful-163064.jpeg",
+      "https://images.pexels.com/photos/3905857/pexels-photo-3905857.jpeg",
+      "https://images.pexels.com/photos/3662845/pexels-photo-3662845.jpeg"
+    ]
+  },
+  {
+    "id": 12,
+    "title": "ID Card with Ribbon",
+    "price": 23.0,
+    "category": "Printing",
+    "description": "High-quality books & stationery product designed for everyday use with durability and modern style.",
+    "thumbnail": "https://images.pexels.com/photos/590493/pexels-photo-590493.jpeg",
+    "images": [
+      "https://images.pexels.com/photos/159711/books-bookstore-book-reading-159711.jpeg",
+      "https://images.pexels.com/photos/256541/pexels-photo-256541.jpeg",
+      "https://images.pexels.com/photos/261909/pexels-photo-261909.jpeg",
+      "https://images.pexels.com/photos/46274/pexels-photo-46274.jpeg"
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Company Letter Head",
+    "price": 24.5,
+    "category": "Printing",
+    "description": "High-quality beauty & personal care product designed for everyday use with durability and modern style.",
+    "thumbnail": "https://images.pexels.com/photos/3952072/pexels-photo-3952072.jpeg",
+    "images": [
+      "https://images.pexels.com/photos/3373726/pexels-photo-3373726.jpeg",
+      "https://images.pexels.com/photos/3321416/pexels-photo-3321416.jpeg",
+      "https://images.pexels.com/photos/4041392/pexels-photo-4041392.jpeg",
+      "https://images.pexels.com/photos/3059609/pexels-photo-3059609.jpeg"
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Money Receipt",
+    "price": 26.0,
+    "category": "Printing",
+    "description": "High-quality clothing product designed for everyday use with durability and modern style.",
+    "thumbnail": "https://images.pexels.com/photos/10026472/pexels-photo-10026472.jpeg",
+    "images": [
+      "https://images.pexels.com/photos/2983464/pexels-photo-2983464.jpeg",
+      "https://images.pexels.com/photos/994523/pexels-photo-994523.jpeg",
+      "https://images.pexels.com/photos/298863/pexels-photo-298863.jpeg",
+      "https://images.pexels.com/photos/428338/pexels-photo-428338.jpeg"
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Leaflet",
+    "price": 27.5,
+    "category": "Digital Printing",
+    "description": "High-quality shoes product designed for everyday use with durability and modern style.",
+    "thumbnail": "https://images.pexels.com/photos/2529148/pexels-photo-2529148.jpeg",
+    "images": [
+      "https://images.pexels.com/photos/19090/pexels-photo.jpg",
+      "https://images.pexels.com/photos/267202/pexels-photo-267202.jpeg",
+      "https://images.pexels.com/photos/1598505/pexels-photo-1598505.jpeg",
+      "https://images.pexels.com/photos/631986/pexels-photo-631986.jpeg"
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Brochure",
+    "price": 29.0,
+    "category": "Digital Printing",
+    "description": "High-quality electronics product designed for everyday use with durability and modern style.",
+    "thumbnail": "https://images.pexels.com/photos/373945/pexels-photo-373945.jpeg",
+    "images": [
+      "https://images.pexels.com/photos/1054397/pexels-photo-1054397.jpeg",
+      "https://images.pexels.com/photos/788946/pexels-photo-788946.jpeg",
+      "https://images.pexels.com/photos/479026/pexels-photo-479026.jpeg",
+      "https://images.pexels.com/photos/1279107/pexels-photo-1279107.jpeg"
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Notebook",
+    "price": 30.5,
+    "category": "Printing",
+    "description": "High-quality home & kitchen product designed for everyday use with durability and modern style.",
+    "thumbnail": "https://images.pexels.com/photos/275682/pexels-photo-275682.jpeg",
+    "images": [
+      "https://images.pexels.com/photos/1643383/pexels-photo-1643383.jpeg",
+      "https://images.pexels.com/photos/1358912/pexels-photo-1358912.jpeg",
+      "https://images.pexels.com/photos/1435907/pexels-photo-1435907.jpeg",
+      "https://images.pexels.com/photos/276528/pexels-photo-276528.jpeg"
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Calendar",
+    "price": 32.0,
+    "category": "Printing",
+    "description": "High-quality toys & games product designed for everyday use with durability and modern style.",
+    "thumbnail": "https://images.pexels.com/photos/209755/pexels-photo-209755.jpeg",
+    "images": [
+      "https://images.pexels.com/photos/3661352/pexels-photo-3661352.jpeg",
+      "https://images.pexels.com/photos/163064/play-dough-toys-childhood-colorful-163064.jpeg",
+      "https://images.pexels.com/photos/3905857/pexels-photo-3905857.jpeg",
+      "https://images.pexels.com/photos/3662845/pexels-photo-3662845.jpeg"
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Magazine",
+    "price": 33.5,
+    "category": "Printing",
+    "description": "High-quality books & stationery product designed for everyday use with durability and modern style.",
+    "thumbnail": "https://images.pexels.com/photos/590493/pexels-photo-590493.jpeg",
+    "images": [
+      "https://images.pexels.com/photos/159711/books-bookstore-book-reading-159711.jpeg",
+      "https://images.pexels.com/photos/256541/pexels-photo-256541.jpeg",
+      "https://images.pexels.com/photos/261909/pexels-photo-261909.jpeg",
+      "https://images.pexels.com/photos/46274/pexels-photo-46274.jpeg"
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Cash Memo",
+    "price": 35.0,
+    "category": "Printing",
+    "description": "High-quality beauty & personal care product designed for everyday use with durability and modern style.",
+    "thumbnail": "https://images.pexels.com/photos/3952072/pexels-photo-3952072.jpeg",
+    "images": [
+      "https://images.pexels.com/photos/3373726/pexels-photo-3373726.jpeg",
+      "https://images.pexels.com/photos/3321416/pexels-photo-3321416.jpeg",
+      "https://images.pexels.com/photos/4041392/pexels-photo-4041392.jpeg",
+      "https://images.pexels.com/photos/3059609/pexels-photo-3059609.jpeg"
+    ]
+  },
+  {
+    "id": 21,
+    "title": "Doctor's Pad",
+    "price": 36.5,
+    "category": "Printing",
+    "description": "High-quality clothing product designed for everyday use with durability and modern style.",
+    "thumbnail": "https://images.pexels.com/photos/10026472/pexels-photo-10026472.jpeg",
+    "images": [
+      "https://images.pexels.com/photos/2983464/pexels-photo-2983464.jpeg",
+      "https://images.pexels.com/photos/994523/pexels-photo-994523.jpeg",
+      "https://images.pexels.com/photos/298863/pexels-photo-298863.jpeg",
+      "https://images.pexels.com/photos/428338/pexels-photo-428338.jpeg"
+    ]
+  },
+  {
+    "id": 22,
+    "title": "Doctor's File",
+    "price": 38.0,
+    "category": "Printing",
+    "description": "High-quality shoes product designed for everyday use with durability and modern style.",
+    "thumbnail": "https://images.pexels.com/photos/2529148/pexels-photo-2529148.jpeg",
+    "images": [
+      "https://images.pexels.com/photos/19090/pexels-photo.jpg",
+      "https://images.pexels.com/photos/267202/pexels-photo-267202.jpeg",
+      "https://images.pexels.com/photos/1598505/pexels-photo-1598505.jpeg",
+      "https://images.pexels.com/photos/631986/pexels-photo-631986.jpeg"
+    ]
+  },
+  {
+    "id": 23,
+    "title": "Event Card",
+    "price": 39.5,
+    "category": "Printing",
+    "description": "High-quality electronics product designed for everyday use with durability and modern style.",
+    "thumbnail": "https://images.pexels.com/photos/373945/pexels-photo-373945.jpeg",
+    "images": [
+      "https://images.pexels.com/photos/1054397/pexels-photo-1054397.jpeg",
+      "https://images.pexels.com/photos/788946/pexels-photo-788946.jpeg",
+      "https://images.pexels.com/photos/479026/pexels-photo-479026.jpeg",
+      "https://images.pexels.com/photos/1279107/pexels-photo-1279107.jpeg"
+    ]
+  },
+  {
+    "id": 24,
+    "title": "Invitation Card",
+    "price": 41.0,
+    "category": "Printing",
+    "description": "High-quality home & kitchen product designed for everyday use with durability and modern style.",
+    "thumbnail": "https://images.pexels.com/photos/275682/pexels-photo-275682.jpeg",
+    "images": [
+      "https://images.pexels.com/photos/1643383/pexels-photo-1643383.jpeg",
+      "https://images.pexels.com/photos/1358912/pexels-photo-1358912.jpeg",
+      "https://images.pexels.com/photos/1435907/pexels-photo-1435907.jpeg",
+      "https://images.pexels.com/photos/276528/pexels-photo-276528.jpeg"
+    ]
+  },
+ 
+  {
+    "id": 25,
+    "title": "Flyer & Banner",
+    "price": 155.0,
+    "category": "Digital Printing",
+    "description": "High-quality electronics product designed for everyday use with durability and modern style.",
+    "thumbnail": "https://images.pexels.com/photos/373945/pexels-photo-373945.jpeg",
+    "images": [
+      "https://images.pexels.com/photos/1054397/pexels-photo-1054397.jpeg",
+      "https://images.pexels.com/photos/788946/pexels-photo-788946.jpeg",
+      "https://images.pexels.com/photos/479026/pexels-photo-479026.jpeg",
+      "https://images.pexels.com/photos/1279107/pexels-photo-1279107.jpeg"
+    ]
+  }
+]
