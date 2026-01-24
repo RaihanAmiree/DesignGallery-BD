@@ -55,13 +55,6 @@ const AboutBanner = () => {
                 ))}
               </div>
 
-              <motion.button
-                whileHover={{ scale: 1.05, backgroundColor: "#003d7a", color: "#fff" }}
-                whileTap={{ scale: 0.95 }}
-                className="cursor-pointer px-10 py-5 border-2 border-[#003d7a] text-[#003d7a] rounded-full text-xs font-bold uppercase tracking-[0.2em] transition-all duration-10"
-              >
-                Discover Our Story
-              </motion.button>
             </motion.div>
           </div>
 

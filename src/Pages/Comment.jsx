@@ -10,8 +10,8 @@ const Comment = () => {
       <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
         <CommentBox
           name="Mamun Rohan"
-          msg="MD Jewel is an outstanding graphic designer. His creativity helped my brand grow fast."
-          occupation="Business Owner"
+          msg="MD Jowel is an outstanding graphic designer. His creativity helped my brand grow fast."
+          occupation="Businessman"
         />
 
         <CommentBox
