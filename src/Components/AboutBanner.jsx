@@ -5,21 +5,20 @@ const AboutBanner = () => {
   return (
     <section className="relative py-24 bg-white overflow-hidden select-none">
       <div className="absolute top-0 right-0 w-1/3 h-full bg-[#f8f9fa] -z-10 hidden lg:block" />
-      
+
       <div className="container mx-auto px-6">
         <div className="flex flex-col lg:flex-row items-center gap-16">
-          
+
           <div className="w-full lg:w-1/2 relative">
-            <motion.div 
+            <motion.div
               initial={{ opacity: 0, x: -50 }}
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 1, ease: "easeOut" }}
               className="relative z-20"
             >
-              {/* Main Image */}
               <div className="rounded-2xl overflow-hidden shadow-2xl border-12 border-white">
-                <img 
-                  src="/Products_Img/CreativeStudio.avif" 
+                <img
+                  src="/Products_Img/Graphic.jpg"
                   alt="Our Creative Studio"
                   className="w-full h-125 object-cover transition-transform duration-700 hover:scale-105"
                 />
@@ -48,7 +47,6 @@ const AboutBanner = () => {
                 <strong>Design Gallery BD</strong> started with a simple vision: to make high-end printing and custom branding accessible to everyone. We believe that every product tells a story, and we're here to help you write yours.
               </p>
 
-              {/* Feature Pills */}
               <div className="flex flex-wrap gap-4 mb-10">
                 {['Premium Quality', 'Eco-Friendly', 'Low-Cost'].map((tag, i) => (
                   <span key={i} className="px-5 py-2 rounded-full bg-gray-100 text-gray-600 text-xs font-extrabold uppercase tracking-wider border border-gray-200">
@@ -57,7 +55,7 @@ const AboutBanner = () => {
                 ))}
               </div>
 
-              <motion.button 
+              <motion.button
                 whileHover={{ scale: 1.05, backgroundColor: "#003d7a", color: "#fff" }}
                 whileTap={{ scale: 0.95 }}
                 className="cursor-pointer px-10 py-5 border-2 border-[#003d7a] text-[#003d7a] rounded-full text-xs font-bold uppercase tracking-[0.2em] transition-all duration-10"

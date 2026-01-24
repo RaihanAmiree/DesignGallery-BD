@@ -1,16 +1,12 @@
-// src/Functions/Cart.js
 
-// Get cart from localStorage
 export const getCart = () => {
   return JSON.parse(localStorage.getItem('cart')) || [];
 };
 
-// Check if a product is in the cart
 export const isInCart = (productId) => {
   return getCart().some(item => item.id === productId);
 };
 
-// Add product to cart (or increase quantity if exists)
 export const addToCart = (product) => {
   const cart = getCart();
   const existing = cart.find(item => item.id === product.id);
@@ -25,7 +21,6 @@ export const addToCart = (product) => {
   window.dispatchEvent(new Event('cartUpdated'));
 };
 
-// Remove product from cart
 export const removeFromCart = (productId) => {
   let cart = getCart();
   cart = cart.filter(item => item.id !== productId);
@@ -33,7 +28,6 @@ export const removeFromCart = (productId) => {
   window.dispatchEvent(new Event('cartUpdated'));
 };
 
-// Increase quantity
 export const increaseQuantity = (productId) => {
   const cart = getCart();
   const item = cart.find(i => i.id === productId);
@@ -42,7 +36,6 @@ export const increaseQuantity = (productId) => {
   window.dispatchEvent(new Event('cartUpdated'));
 };
 
-// Decrease quantity
 export const decreaseQuantity = (productId) => {
   const cart = getCart();
   const item = cart.find(i => i.id === productId);
@@ -53,8 +46,8 @@ export const decreaseQuantity = (productId) => {
 };
 
 export const clearCart = () => {
-  localStorage.removeItem('cart'); // remove the cart from localStorage
-  window.dispatchEvent(new Event('cartUpdated')); // notify listeners
+  localStorage.removeItem('cart'); 
+  window.dispatchEvent(new Event('cartUpdated')); 
 };
 
 

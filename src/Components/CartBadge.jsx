@@ -7,7 +7,6 @@ const CartBadge = ({ className = '' }) => {
   useEffect(() => {
     const updateCount = () => {
       const cart = JSON.parse(localStorage.getItem('cart')) || [];
-      // count unique products only
       setCount(cart.length);
     };
 

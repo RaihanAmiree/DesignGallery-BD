@@ -1,6 +1,5 @@
 import React from "react";
 import { useLocation, useNavigate } from "react-router-dom";
-// Using Font Awesome and Ionicons from react-icons
 import { FaCheckCircle, FaRegFileAlt, FaWhatsapp, FaPhoneAlt, FaEnvelope, FaRegCalendarAlt } from "react-icons/fa";
 import { IoArrowBack, IoPrintOutline, IoBagCheckOutline, IoLocationOutline } from "react-icons/io5";
 
@@ -8,7 +7,6 @@ const OrderConfirmation = () => {
   const location = useLocation();
   const navigate = useNavigate();
 
-  // Get the order from navigation state
   const order = location.state?.order;
 
   if (!order) {
@@ -34,7 +32,6 @@ const OrderConfirmation = () => {
   return (
     <div className="min-h-screen bg-[#fdfdfd] py-12 px-4 sm:px-6">
       <div className="max-w-4xl mx-auto">
-        {/* Success Banner */}
         <div className="bg-white border border-gray-100 rounded-2xl p-8 shadow-sm mb-8 text-center">
           <div className="flex justify-center mb-4">
             <FaCheckCircle className="text-green-500 text-6xl" />
@@ -50,7 +47,6 @@ const OrderConfirmation = () => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {/* Main Content - Order Items */}
           <div className="md:col-span-2 space-y-6">
             <div className="bg-white border border-gray-100 rounded-2xl shadow-sm overflow-hidden">
               <div className="px-6 py-4 border-b border-gray-50 bg-gray-50/50 flex items-center gap-2">
@@ -66,7 +62,7 @@ const OrderConfirmation = () => {
                         <span className="text-xs text-gray-400">Quantity: {item.quantity}</span>
                       </div>
                       <span className="font-semibold text-gray-900">
-                        ${(item.price * item.quantity).toFixed(2)}
+                        tk.{(item.price * item.quantity).toFixed(2)}
                       </span>
                     </div>
                   ))}
@@ -75,14 +71,21 @@ const OrderConfirmation = () => {
                 <div className="mt-6 pt-4 border-t-2 border-dashed border-gray-100">
                   <div className="flex justify-between items-center text-xl font-bold">
                     <span className="text-gray-800">Total Amount</span>
-                    <span className="text-[#DB4444]">${Number(order.total).toFixed(2)}</span>
+                    <span className="text-[#DB4444]">tk.{Number(order.total).toFixed(2)}</span>
                   </div>
                 </div>
               </div>
             </div>
+            
+              <div className="w-full bg-yellow-50 border border-yellow-200 text-yellow-800 text-sm sm:text-base px-4 py-3 rounded-md mb-4">
+  <p className="leading-relaxed">
+    <span className="font-semibold">Note:</span> Prices shown on this website are
+    estimated and may vary based on colors, size, and customization. Final pricing
+    will be confirmed after order discussion.
+  </p>
+</div>
           </div>
 
-          {/* Sidebar - Customer Details */}
           <div className="space-y-6">
             <div className="bg-white border border-gray-100 rounded-2xl shadow-sm p-6">
               <h3 className="font-bold text-gray-800 mb-4 flex items-center gap-2">
@@ -117,10 +120,9 @@ const OrderConfirmation = () => {
           </div>
         </div>
 
-        {/* Footer Actions */}
         <div className="mt-12 flex flex-col sm:flex-row items-center justify-center gap-4">
-         
-          <button 
+
+          <button
             onClick={() => navigate("/")}
             className="w-full sm:w-auto flex items-center justify-center gap-2 px-10 py-3 bg-gray-900 text-white rounded-lg hover:bg-black transition-all font-medium shadow-lg"
           >

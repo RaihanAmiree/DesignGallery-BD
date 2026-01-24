@@ -24,7 +24,7 @@ const App = () => {
   return (
     <Router>
 
-      <ScrollToTop></ScrollToTop>
+      <ScrollToTop/>
       <Navbar></Navbar>
 
       <Routes>

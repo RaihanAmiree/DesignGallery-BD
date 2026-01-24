@@ -17,7 +17,7 @@ const Contact = () => {
   };
 
   const sendEmail = (e) => {
-    e.preventDefault(); // prevent page refresh
+    e.preventDefault();
 
     emailjs.send(
       'service_u63yi7u',      // replace with your EmailJS service ID
@@ -51,13 +51,10 @@ const Contact = () => {
 
       <div className="max-w-7xl mx-auto">
 
-        {/* Contact Grid */}
         <div className="flex flex-col lg:flex-row gap-8">
 
-          {/* Left Info Box */}
           <div className="w-full lg:w-1/3 border border-gray-200 rounded-lg p-8 space-y-8 shadow-sm transition-all duration-300 hover:shadow-lg bg-white">
 
-            {/* Call Section */}
             <div className="group">
               <div className="flex items-center gap-4 mb-4">
                 <div className="bg-[#001f3f] p-3 rounded-full text-white transition-transform duration-300 group-hover:scale-110">
@@ -75,7 +72,6 @@ const Contact = () => {
 
             <hr className="border-gray-200" />
 
-            {/* Write Section */}
             <div className="group">
               <div className="flex items-center gap-4 mb-4">
                 <div className="bg-[#001f3f] p-3 rounded-full text-white transition-transform duration-300 group-hover:scale-110">
@@ -93,7 +89,6 @@ const Contact = () => {
 
             <hr className="border-gray-200" />
 
-            {/* Social Icons Section */}
             <div className="space-y-4">
               <h4 className="text-xs uppercase font-bold text-gray-400 tracking-widest">Follow Us</h4>
               <div className="flex gap-3">
@@ -110,9 +105,8 @@ const Contact = () => {
             </div>
           </div>
 
-          {/* Right Form Box - CHANGED TO <form> */}
-          <form 
-            onSubmit={sendEmail} 
+          <form
+            onSubmit={sendEmail}
             className="w-full lg:w-2/3 border border-gray-200 rounded-lg p-8 shadow-sm bg-white"
           >
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
@@ -156,8 +150,8 @@ const Contact = () => {
             ></textarea>
 
             <div className="flex justify-end">
-              <button 
-                type="submit" 
+              <button
+                type="submit"
                 className="cursor-pointer bg-[#023d77] text-white px-12 py-4 rounded font-medium transition-all duration-300 hover:bg-[#002d5a] active:scale-95 shadow-md"
               >
                 Send Message
@@ -166,7 +160,6 @@ const Contact = () => {
           </form>
         </div>
 
-        {/* Map Section */}
         <div className="max-w-7xl mx-auto mt-12 px-4 md:px-0">
           <div className="w-full h-112.5 rounded-xl overflow-hidden shadow-lg border border-gray-200">
             <iframe

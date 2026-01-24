@@ -2,352 +2,324 @@
   {
     "id": 1,
     "title": "Printed Bags",
-    "price": 6.5,
+    "price": 250,
     "category": "Custom Products",
-    "description": "High-quality shoes product designed for everyday use with durability and modern style.",
-    "thumbnail": "/Products_Img/1.jpg",
+    "description": "Custom printed bags ideal for branding, promotions, and retail use. Available in various materials, sizes, and print styles based on your requirements.",
+    "thumbnail": "/Products_Img/PB-1.webp",
     "images": [
-      "/Products_Img/1.jpg",
-      "https://images.pexels.com/photos/267202/pexels-photo-267202.jpeg",
-      "https://images.pexels.com/photos/1598505/pexels-photo-1598505.jpeg",
-      "https://images.pexels.com/photos/631986/pexels-photo-631986.jpeg"
+      "/Products_Img/PB-2.png",
+      "/Products_Img/PB-3.jpg",
+      "/Products_Img/PB-4.jpg",
+      "/Products_Img/PB-5.avif"
     ]
   },
   {
     "id": 2,
     "title": "Pens with Branding",
-    "price": 8.0,
+    "price": 150,
     "category": "Custom Products",
-    "description": "High-quality electronics product designed for everyday use with durability and modern style.",
-    "thumbnail": "https://images.pexels.com/photos/373945/pexels-photo-373945.jpeg",
+    "description": "Branded pens perfect for corporate giveaways and promotions. Customizable with logos, colors, and print styles to match your brand identity..",
+    "thumbnail": "/Products_Img/P-1.jpg",
     "images": [
-      "https://images.pexels.com/photos/1054397/pexels-photo-1054397.jpeg",
-      "https://images.pexels.com/photos/788946/pexels-photo-788946.jpeg",
-      "https://images.pexels.com/photos/479026/pexels-photo-479026.jpeg",
-      "https://images.pexels.com/photos/1279107/pexels-photo-1279107.jpeg"
+      "/Products_Img/P-2.webp",
+      "/Products_Img/P-3.jpg",
+      "/Products_Img/P-4.jpg",
+      "/Products_Img/P-5.avif"
     ]
   },
   {
     "id": 3,
     "title": "Customize T-shirt",
-    "price": 9.5,
+    "price": 300,
     "category": "Custom Products",
-    "description": "High-quality home & kitchen product designed for everyday use with durability and modern style.",
-    "thumbnail": "https://images.pexels.com/photos/275682/pexels-photo-275682.jpeg",
+    "description": "Personalized T-shirts designed for events, teams, and promotions. Pricing may vary depending on fabric quality, colors, print type, and design details.",
+    "thumbnail": "/Products_Img/CT-1.webp",
     "images": [
-      "https://images.pexels.com/photos/1643383/pexels-photo-1643383.jpeg",
-      "https://images.pexels.com/photos/1358912/pexels-photo-1358912.jpeg",
-      "https://images.pexels.com/photos/1435907/pexels-photo-1435907.jpeg",
-      "https://images.pexels.com/photos/276528/pexels-photo-276528.jpeg"
+      "/Products_Img/CT-2.webp",
+      "/Products_Img/CT-3.jpg",
+      "/Products_Img/CT-4.avif",
+      "/Products_Img/CT-5.jpg"
     ]
   },
   {
     "id": 4,
     "title": "Mug",
-    "price": 11.0,
+    "price": 350,
     "category": "Custom Products",
-    "description": "High-quality toys & games product designed for everyday use with durability and modern style.",
-    "thumbnail": "https://images.pexels.com/photos/209755/pexels-photo-209755.jpeg",
+    "description": "Custom printed mugs suitable for gifts, branding, and personal use. Design, color options, and print method may affect the final price.",
+    "thumbnail": "/Products_Img/CM-1.jpg",
     "images": [
-      "https://images.pexels.com/photos/3661352/pexels-photo-3661352.jpeg",
-      "https://images.pexels.com/photos/163064/play-dough-toys-childhood-colorful-163064.jpeg",
-      "https://images.pexels.com/photos/3905857/pexels-photo-3905857.jpeg",
-      "https://images.pexels.com/photos/3662845/pexels-photo-3662845.jpeg"
+      "/Products_Img/CM-2.jpg",
+      "/Products_Img/CM-3.jpg",
+      "/Products_Img/CM-4.webp",
+      "/Products_Img/CM-5.webp"
     ]
   },
   {
     "id": 5,
     "title": "Lanyards & Ribbons",
-    "price": 12.5,
+    "price": 500,
     "category": "Custom Products",
-    "description": "High-quality books & stationery product designed for everyday use with durability and modern style.",
-    "thumbnail": "https://images.pexels.com/photos/590493/pexels-photo-590493.jpeg",
+    "description": "Available from 20 pcs. High-quality custom lanyards and ribbons for events, offices, and branding purposes. Available in multiple colors, materials, and print styles.",
+    "thumbnail": "/Products_Img/LR-1.webp",
     "images": [
-      "https://images.pexels.com/photos/159711/books-bookstore-book-reading-159711.jpeg",
-      "https://images.pexels.com/photos/256541/pexels-photo-256541.jpeg",
-      "https://images.pexels.com/photos/261909/pexels-photo-261909.jpeg",
-      "https://images.pexels.com/photos/46274/pexels-photo-46274.jpeg"
+      "/Products_Img/LR-2.jpeg",
+      "/Products_Img/LR-3.jpg",
+      "/Products_Img/LR-4.jpg",
+      "/Products_Img/LR-5.avif"
     ]
   },
   {
     "id": 6,
     "title": "Printed Caps",
-    "price": 14.0,
+    "price": 300,
     "category": "Custom Products",
-    "description": "High-quality beauty & personal care product designed for everyday use with durability and modern style.",
-    "thumbnail": "https://images.pexels.com/photos/3952072/pexels-photo-3952072.jpeg",
+    "description": "Stylish custom caps designed for branding, promotions, and casual wear. Pricing depends on design complexity, embroidery or print type, and materials.",
+    "thumbnail": "/Products_Img/C-1.jpg",
     "images": [
-      "https://images.pexels.com/photos/3373726/pexels-photo-3373726.jpeg",
-      "https://images.pexels.com/photos/3321416/pexels-photo-3321416.jpeg",
-      "https://images.pexels.com/photos/4041392/pexels-photo-4041392.jpeg",
-      "https://images.pexels.com/photos/3059609/pexels-photo-3059609.jpeg"
+      "/Products_Img/C-2.jpeg",
+      "/Products_Img/C-3.webp",
+      "/Products_Img/C-4.webp",
+      "/Products_Img/C-5.webp"
     ]
   },
   {
     "id": 7,
     "title": "Key Rings",
-    "price": 15.5,
+    "price": 100,
     "category": "Custom Products",
-    "description": "High-quality clothing product designed for everyday use with durability and modern style.",
-    "thumbnail": "https://images.pexels.com/photos/10026472/pexels-photo-10026472.jpeg",
+    "description": "Durable and attractive custom key rings ideal for promotions and branding. Custom shapes, materials, and printing options are available.",
+    "thumbnail": "/Products_Img/KR-1.webp",
     "images": [
-      "https://images.pexels.com/photos/2983464/pexels-photo-2983464.jpeg",
-      "https://images.pexels.com/photos/994523/pexels-photo-994523.jpeg",
-      "https://images.pexels.com/photos/298863/pexels-photo-298863.jpeg",
-      "https://images.pexels.com/photos/428338/pexels-photo-428338.jpeg"
+      "/Products_Img/KR-2.webp",
+      "/Products_Img/KR-3.jpg",
+      "/Products_Img/KR-4.jpg",
+      "/Products_Img/KR-5.webp"
     ]
   },
   {
     "id": 8,
     "title": "Crest",
-    "price": 17.0,
+    "price": 350,
     "category": "Custom Products",
-    "description": "High-quality shoes product designed for everyday use with durability and modern style.",
-    "thumbnail": "https://images.pexels.com/photos/2529148/pexels-photo-2529148.jpeg",
+    "description": "Premium-quality crests designed for institutions, clubs, and organizations. Custom sizes, finishes, and detailing options may affect pricing.",
+    "thumbnail": "/Products_Img/Cr-1.jpg",
     "images": [
-      "https://images.pexels.com/photos/19090/pexels-photo.jpg",
-      "https://images.pexels.com/photos/267202/pexels-photo-267202.jpeg",
-      "https://images.pexels.com/photos/1598505/pexels-photo-1598505.jpeg",
-      "https://images.pexels.com/photos/631986/pexels-photo-631986.jpeg"
+      "/Products_Img/Cr-2.jpg",
+      "/Products_Img/Cr-3.jpg",
+      "/Products_Img/Cr-4.jpg",
+      "/Products_Img/Cr-1.jpg"
     ]
   },
   {
     "id": 9,
     "title": "Badge",
-    "price": 18.5,
+    "price": 100,
     "category": "Custom Products",
-    "description": "High-quality electronics product designed for everyday use with durability and modern style.",
-    "thumbnail": "https://images.pexels.com/photos/373945/pexels-photo-373945.jpeg",
+    "description": "Custom badges suitable for events, organizations, and branding purposes. Available in different sizes, materials, and finishing options.",
+    "thumbnail": "/Products_Img/Bg-1.jpg",
     "images": [
-      "https://images.pexels.com/photos/1054397/pexels-photo-1054397.jpeg",
-      "https://images.pexels.com/photos/788946/pexels-photo-788946.jpeg",
-      "https://images.pexels.com/photos/479026/pexels-photo-479026.jpeg",
-      "https://images.pexels.com/photos/1279107/pexels-photo-1279107.jpeg"
+      "/Products_Img/Bg-2.jpg",
+      "/Products_Img/Bg-3.webp",
+      "/Products_Img/Bg-4.png",
+      "/Products_Img/Bg-5.webp"
     ]
   },
   {
     "id": 10,
-    "title": "Seal Stamp",
-    "price": 20.0,
-    "category": "Custom Products",
-    "description": "High-quality home & kitchen product designed for everyday use with durability and modern style.",
-    "thumbnail": "https://images.pexels.com/photos/275682/pexels-photo-275682.jpeg",
+    "title": "Visiting Card",
+    "price": 300,
+    "category": "Printing",
+    "description": "Starts from 100 pcs. Professional visiting cards designed to leave a lasting impression. Paper quality, finishes, colors, and design customization may influence the final price.",
+    "thumbnail": "/Products_Img/VC-1.jpg",
     "images": [
-      "https://images.pexels.com/photos/1643383/pexels-photo-1643383.jpeg",
-      "https://images.pexels.com/photos/1358912/pexels-photo-1358912.jpeg",
-      "https://images.pexels.com/photos/1435907/pexels-photo-1435907.jpeg",
-      "https://images.pexels.com/photos/276528/pexels-photo-276528.jpeg"
+      "/Products_Img/VC-2.jpg",
+      "/Products_Img/VC-3.jpg",
+      "/Products_Img/VC-4.jpg",
+      "/Products_Img/VC-5.jpg"
     ]
   },
   {
     "id": 11,
-    "title": "Visiting Card",
-    "price": 21.5,
+    "title": "ID Card with Ribbon",
+    "price": 500,
     "category": "Printing",
-    "description": "High-quality toys & games product designed for everyday use with durability and modern style.",
-    "thumbnail": "https://images.pexels.com/photos/209755/pexels-photo-209755.jpeg",
+    "description": "Starts from 20 pcs. Customized ID cards with matching ribbons for offices, schools, and events. Design, material, and print options determine the final cost.",
+    "thumbnail": "/Products_Img/ID-1.png",
     "images": [
-      "https://images.pexels.com/photos/3661352/pexels-photo-3661352.jpeg",
-      "https://images.pexels.com/photos/163064/play-dough-toys-childhood-colorful-163064.jpeg",
-      "https://images.pexels.com/photos/3905857/pexels-photo-3905857.jpeg",
-      "https://images.pexels.com/photos/3662845/pexels-photo-3662845.jpeg"
+      "/Products_Img/ID-1.png",
+      "/Products_Img/ID-2.png",
+      "/Products_Img/ID-1.png",
+      "/Products_Img/ID-2.png"
     ]
   },
   {
     "id": 12,
-    "title": "ID Card with Ribbon",
-    "price": 23.0,
+    "title": "Company Letter Head",
+    "price": 100,
     "category": "Printing",
-    "description": "High-quality books & stationery product designed for everyday use with durability and modern style.",
-    "thumbnail": "https://images.pexels.com/photos/590493/pexels-photo-590493.jpeg",
+    "description": "Clean and professional letterhead designs for official business use. Paper quality, printing style, and customization may affect pricing.",
+    "thumbnail": "/Products_Img/LH-1.webp",
     "images": [
-      "https://images.pexels.com/photos/159711/books-bookstore-book-reading-159711.jpeg",
-      "https://images.pexels.com/photos/256541/pexels-photo-256541.jpeg",
-      "https://images.pexels.com/photos/261909/pexels-photo-261909.jpeg",
-      "https://images.pexels.com/photos/46274/pexels-photo-46274.jpeg"
+      "/Products_Img/LH-2.webp",
+      "/Products_Img/LH-3.jpg",
+      "/Products_Img/LH-4.jpg",
+      "/Products_Img/LH-5.jpg"
     ]
   },
   {
     "id": 13,
-    "title": "Company Letter Head",
-    "price": 24.5,
+    "title": "Money Receipt",
+    "price": 300,
     "category": "Printing",
-    "description": "High-quality beauty & personal care product designed for everyday use with durability and modern style.",
-    "thumbnail": "https://images.pexels.com/photos/3952072/pexels-photo-3952072.jpeg",
+    "description": "Starts from 100 pcs. Custom-designed money receipts suitable for businesses and organizations. Layout, paper quality, and print quantity may vary the final price.",
+    "thumbnail": "/Products_Img/MR-1.png",
     "images": [
-      "https://images.pexels.com/photos/3373726/pexels-photo-3373726.jpeg",
-      "https://images.pexels.com/photos/3321416/pexels-photo-3321416.jpeg",
-      "https://images.pexels.com/photos/4041392/pexels-photo-4041392.jpeg",
-      "https://images.pexels.com/photos/3059609/pexels-photo-3059609.jpeg"
+      "/Products_Img/MR-1.png",
+      "/Products_Img/MR-2.png",
+      "/Products_Img/MR-3.png",
+      "/Products_Img/MR-1.png"
     ]
   },
   {
     "id": 14,
-    "title": "Money Receipt",
-    "price": 26.0,
-    "category": "Printing",
-    "description": "High-quality clothing product designed for everyday use with durability and modern style.",
-    "thumbnail": "https://images.pexels.com/photos/10026472/pexels-photo-10026472.jpeg",
+    "title": "Leaflet",
+    "price": 200,
+    "category": "Digital Printing",
+    "description": "Available from 50 pcs. Eye-catching leaflets designed for promotions and marketing campaigns. Final pricing depends on size, paper type, colors, and quantity.",
+    "thumbnail": "/Products_Img/LF-1.png",
     "images": [
-      "https://images.pexels.com/photos/2983464/pexels-photo-2983464.jpeg",
-      "https://images.pexels.com/photos/994523/pexels-photo-994523.jpeg",
-      "https://images.pexels.com/photos/298863/pexels-photo-298863.jpeg",
-      "https://images.pexels.com/photos/428338/pexels-photo-428338.jpeg"
+      "/Products_Img/LF-1.png",
+      "/Products_Img/LF-2.png",
+      "/Products_Img/LF-3.png",
+      "/Products_Img/LF-4.jpg"
     ]
   },
   {
     "id": 15,
-    "title": "Leaflet",
-    "price": 27.5,
+    "title": "Brochure",
+    "price": 100,
     "category": "Digital Printing",
-    "description": "High-quality shoes product designed for everyday use with durability and modern style.",
-    "thumbnail": "https://images.pexels.com/photos/2529148/pexels-photo-2529148.jpeg",
+    "description": "Professionally designed brochures ideal for showcasing products and services. Custom layouts, folds, and printing options may affect pricing.",
+    "thumbnail": "/Products_Img/B-1jpgg",
     "images": [
-      "https://images.pexels.com/photos/19090/pexels-photo.jpg",
-      "https://images.pexels.com/photos/267202/pexels-photo-267202.jpeg",
-      "https://images.pexels.com/photos/1598505/pexels-photo-1598505.jpeg",
-      "https://images.pexels.com/photos/631986/pexels-photo-631986.jpeg"
+      "/Products_Img/B-2.jpg",
+      "/Products_Img/B-3.webp",
+      "/Products_Img/B-4.jpg",
+      "/Products_Img/B-1.jpg"
     ]
   },
   {
     "id": 16,
-    "title": "Brochure",
-    "price": 29.0,
-    "category": "Digital Printing",
-    "description": "High-quality electronics product designed for everyday use with durability and modern style.",
-    "thumbnail": "https://images.pexels.com/photos/373945/pexels-photo-373945.jpeg",
+    "title": "Notebook",
+    "price": 750,
+    "category": "Printing",
+    "description": "Custom notebooks suitable for corporate branding, schools, and personal use. Cover design, paper quality, and binding options influence the cost.",
+    "thumbnail": "/Products_Img/NB-1.jpg",
     "images": [
-      "https://images.pexels.com/photos/1054397/pexels-photo-1054397.jpeg",
-      "https://images.pexels.com/photos/788946/pexels-photo-788946.jpeg",
-      "https://images.pexels.com/photos/479026/pexels-photo-479026.jpeg",
-      "https://images.pexels.com/photos/1279107/pexels-photo-1279107.jpeg"
+      "/Products_Img/NB-3.avif",
+      "/Products_Img/NB-2.jpeg",
+      "/Products_Img/NB-4.avif",
+      "/Products_Img/NB-5.avif"
     ]
   },
   {
     "id": 17,
-    "title": "Notebook",
-    "price": 30.5,
+    "title": "Calendar",
+    "price": 300,
     "category": "Printing",
-    "description": "High-quality home & kitchen product designed for everyday use with durability and modern style.",
-    "thumbnail": "https://images.pexels.com/photos/275682/pexels-photo-275682.jpeg",
+    "description": "Personalized calendars designed for promotional and personal use. Pricing may vary based on size, paper quality, design, and finishing.",
+    "thumbnail": "/Products_Img/Cn-1.jpg",
     "images": [
-      "https://images.pexels.com/photos/1643383/pexels-photo-1643383.jpeg",
-      "https://images.pexels.com/photos/1358912/pexels-photo-1358912.jpeg",
-      "https://images.pexels.com/photos/1435907/pexels-photo-1435907.jpeg",
-      "https://images.pexels.com/photos/276528/pexels-photo-276528.jpeg"
+      "/Products_Img/Cn-2.jpg",
+      "/Products_Img/Cn-3.webp",
+      "/Products_Img/Cn-4.jpg",
+      "/Products_Img/Cn-5.jpg"
     ]
   },
   {
     "id": 18,
-    "title": "Calendar",
-    "price": 32.0,
+    "title": "Magazine",
+    "price": 750,
     "category": "Printing",
-    "description": "High-quality toys & games product designed for everyday use with durability and modern style.",
-    "thumbnail": "https://images.pexels.com/photos/209755/pexels-photo-209755.jpeg",
+    "description": "High-quality magazine printing with professional layouts and finishes. Page count, paper type, and print quality affect the final price.",
+    "thumbnail": "/Products_Img/M-2.jpg",
     "images": [
-      "https://images.pexels.com/photos/3661352/pexels-photo-3661352.jpeg",
-      "https://images.pexels.com/photos/163064/play-dough-toys-childhood-colorful-163064.jpeg",
-      "https://images.pexels.com/photos/3905857/pexels-photo-3905857.jpeg",
-      "https://images.pexels.com/photos/3662845/pexels-photo-3662845.jpeg"
+      "/Products_Img/M-1.jpg",
+      "/Products_Img/M-3.jpg",
+      "/Products_Img/M-4.jpg",
+      "/Products_Img/M-5.jpg"
     ]
   },
   {
     "id": 19,
-    "title": "Magazine",
-    "price": 33.5,
+    "title": "Doctor's Pad",
+    "price": 300,
     "category": "Printing",
-    "description": "High-quality books & stationery product designed for everyday use with durability and modern style.",
-    "thumbnail": "https://images.pexels.com/photos/590493/pexels-photo-590493.jpeg",
+    "description": "Starts from 50 pcs. Customized doctor’s pads designed for clinics and medical professionals. Paper quality, layout, and print quantity may impact pricing.",
+    "thumbnail": "/Products_Img/DP-1.png",
     "images": [
-      "https://images.pexels.com/photos/159711/books-bookstore-book-reading-159711.jpeg",
-      "https://images.pexels.com/photos/256541/pexels-photo-256541.jpeg",
-      "https://images.pexels.com/photos/261909/pexels-photo-261909.jpeg",
-      "https://images.pexels.com/photos/46274/pexels-photo-46274.jpeg"
+      "/Products_Img/DP-1.png",
+      "/Products_Img/DP-1.png",
+      "/Products_Img/DP-1.png",
+      "/Products_Img/DP-1.png"
     ]
   },
   {
     "id": 20,
-    "title": "Cash Memo",
-    "price": 35.0,
+    "title": "Doctor's File",
+    "price": 500,
     "category": "Printing",
-    "description": "High-quality beauty & personal care product designed for everyday use with durability and modern style.",
-    "thumbnail": "https://images.pexels.com/photos/3952072/pexels-photo-3952072.jpeg",
+    "description": "Starts from 20 pcs. Professional doctor’s files designed for organized record keeping. Custom sizes, materials, and printing options are available.",
+    "thumbnail": "/Products_Img/DF-1.png",
     "images": [
-      "https://images.pexels.com/photos/3373726/pexels-photo-3373726.jpeg",
-      "https://images.pexels.com/photos/3321416/pexels-photo-3321416.jpeg",
-      "https://images.pexels.com/photos/4041392/pexels-photo-4041392.jpeg",
-      "https://images.pexels.com/photos/3059609/pexels-photo-3059609.jpeg"
+      "/Products_Img/DF-1.png",
+      "/Products_Img/DF-1.png",
+      "/Products_Img/DF-1.png",
+      "/Products_Img/DF-1.png"
     ]
   },
   {
     "id": 21,
-    "title": "Doctor's Pad",
-    "price": 36.5,
+    "title": "Event Card",
+    "price": 50,
     "category": "Printing",
-    "description": "High-quality clothing product designed for everyday use with durability and modern style.",
-    "thumbnail": "https://images.pexels.com/photos/10026472/pexels-photo-10026472.jpeg",
+    "description": "Counted as per piece. Attractive event cards designed for announcements and special occasions. Custom designs, paper quality, and finishes may affect pricing.",
+    "thumbnail": "/Products_Img/EC-1.avif",
     "images": [
-      "https://images.pexels.com/photos/2983464/pexels-photo-2983464.jpeg",
-      "https://images.pexels.com/photos/994523/pexels-photo-994523.jpeg",
-      "https://images.pexels.com/photos/298863/pexels-photo-298863.jpeg",
-      "https://images.pexels.com/photos/428338/pexels-photo-428338.jpeg"
+      "/Products_Img/EC-2.avif",
+      "/Products_Img/EC-3.avif",
+      "/Products_Img/EC-4.avif",
+      "/Products_Img/EC-5.jpg"
     ]
   },
   {
     "id": 22,
-    "title": "Doctor's File",
-    "price": 38.0,
-    "category": "Printing",
-    "description": "High-quality shoes product designed for everyday use with durability and modern style.",
-    "thumbnail": "https://images.pexels.com/photos/2529148/pexels-photo-2529148.jpeg",
-    "images": [
-      "https://images.pexels.com/photos/19090/pexels-photo.jpg",
-      "https://images.pexels.com/photos/267202/pexels-photo-267202.jpeg",
-      "https://images.pexels.com/photos/1598505/pexels-photo-1598505.jpeg",
-      "https://images.pexels.com/photos/631986/pexels-photo-631986.jpeg"
-    ]
-  },
-  {
-    "id": 23,
-    "title": "Event Card",
-    "price": 39.5,
-    "category": "Printing",
-    "description": "High-quality electronics product designed for everyday use with durability and modern style.",
-    "thumbnail": "https://images.pexels.com/photos/373945/pexels-photo-373945.jpeg",
-    "images": [
-      "https://images.pexels.com/photos/1054397/pexels-photo-1054397.jpeg",
-      "https://images.pexels.com/photos/788946/pexels-photo-788946.jpeg",
-      "https://images.pexels.com/photos/479026/pexels-photo-479026.jpeg",
-      "https://images.pexels.com/photos/1279107/pexels-photo-1279107.jpeg"
-    ]
-  },
-  {
-    "id": 24,
     "title": "Invitation Card",
-    "price": 41.0,
+    "price": 50,
     "category": "Printing",
-    "description": "High-quality home & kitchen product designed for everyday use with durability and modern style.",
-    "thumbnail": "https://images.pexels.com/photos/275682/pexels-photo-275682.jpeg",
+    "description": "Counted as per piece. Elegant invitation card designs tailored for events and special occasions. Final price may vary based on design complexity, colors, paper quality, and customization.",
+    "thumbnail": "/Products_Img/IC-1.jpg",
     "images": [
-      "https://images.pexels.com/photos/1643383/pexels-photo-1643383.jpeg",
-      "https://images.pexels.com/photos/1358912/pexels-photo-1358912.jpeg",
-      "https://images.pexels.com/photos/1435907/pexels-photo-1435907.jpeg",
-      "https://images.pexels.com/photos/276528/pexels-photo-276528.jpeg"
+      "/Products_Img/IC-3.avif",
+      "/Products_Img/IC-2.avif",
+      "/Products_Img/IC-4.avif",
+      "/Products_Img/IC-5.avif"
     ]
   },
  
   {
-    "id": 25,
+    "id": 23,
     "title": "Flyer & Banner",
-    "price": 155.0,
+    "price": 100,
     "category": "Digital Printing",
-    "description": "High-quality electronics product designed for everyday use with durability and modern style.",
-    "thumbnail": "https://images.pexels.com/photos/373945/pexels-photo-373945.jpeg",
+    "description": "Professional flyer and banner designs crafted for eye-catching promotion. Final price may vary depending on size, colors, materials, and customization requirements.",
+    "thumbnail": "/Products_Img/FB-1.jpg",
     "images": [
-      "https://images.pexels.com/photos/1054397/pexels-photo-1054397.jpeg",
-      "https://images.pexels.com/photos/788946/pexels-photo-788946.jpeg",
-      "https://images.pexels.com/photos/479026/pexels-photo-479026.jpeg",
-      "https://images.pexels.com/photos/1279107/pexels-photo-1279107.jpeg"
+      "/Products_Img/FB-2.avif",
+      "/Products_Img/FB-3.avif",
+      "/Products_Img/FB-4.avif",
+      "/Products_Img/FB-5.avif"
     ]
   }
 ]

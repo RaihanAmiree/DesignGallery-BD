@@ -10,9 +10,8 @@ const ProductDetails = () => {
   const [product, setProduct] = useState(null);
   const [quantity, setQuantity] = useState(1);
   const [activeImage, setActiveImage] = useState('');
-  const [inWishlist, setInWishlist] = useState(false); // ✅ SAFE INIT
+  const [inWishlist, setInWishlist] = useState(false);
 
-  // Fetch product
   useEffect(() => {
     fetch('/products.json')
       .then(res => res.json())
@@ -23,7 +22,6 @@ const ProductDetails = () => {
       });
   }, [id]);
 
-  // Sync wishlist after product loads
   useEffect(() => {
     if (product?.id) {
       setInWishlist(isInWishlist(product.id));
@@ -56,10 +54,8 @@ const ProductDetails = () => {
 
       <div className="flex flex-col lg:flex-row gap-10">
 
-        {/* Left: Image Gallery */}
         <div className="flex flex-col-reverse md:flex-row gap-4 lg:w-2/3">
 
-          {/* Thumbnails */}
           <div className="flex md:flex-col gap-4">
             {product.images?.map((img, i) => (
               <div
@@ -72,7 +68,6 @@ const ProductDetails = () => {
             ))}
           </div>
 
-          {/* Main Image */}
           <div className="flex-1 bg-[#F5F5F5] flex items-center justify-center rounded-sm p-8">
             <img
               src={activeImage}
@@ -82,7 +77,6 @@ const ProductDetails = () => {
           </div>
         </div>
 
-        {/* Right: Product Info */}
         <div className="lg:w-1/3">
           <h1 className="text-2xl font-semibold mb-3">{product.title}</h1>
 
@@ -92,10 +86,8 @@ const ProductDetails = () => {
             {product.description}
           </p>
 
-          {/* Action Row */}
           <div className="flex items-center gap-4 mb-10">
 
-            {/* Quantity */}
             <div className="flex border border-gray-400 rounded-md overflow-hidden">
               <button
                 onClick={() => setQuantity(q => Math.max(1, q - 1))}
@@ -114,7 +106,6 @@ const ProductDetails = () => {
               </button>
             </div>
 
-            {/* Buy Now */}
             <button
               onClick={() => {
                 const cart = JSON.parse(localStorage.getItem('cart')) || [];
@@ -134,7 +125,6 @@ const ProductDetails = () => {
               Buy Now
             </button>
 
-            {/* Wishlist */}
             <button
               onClick={handleWishlistClick}
               className="flex h-9 w-9 items-center justify-center rounded-full bg-white hover:bg-black shadow-sm transition-all active:scale-90"

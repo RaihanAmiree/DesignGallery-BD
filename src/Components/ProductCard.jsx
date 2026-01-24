@@ -10,7 +10,6 @@ const ProductCard = ({ product, viewProduct }) => {
   const [inCart, setInCart] = useState(false);
   const navigate = useNavigate();
 
-  // Listen for wishlist updates
   useEffect(() => {
     const handleWishlistUpdate = () => {
       setInWishlist(isInWishlist(product.id));
@@ -19,7 +18,6 @@ const ProductCard = ({ product, viewProduct }) => {
     return () => window.removeEventListener('wishlistUpdated', handleWishlistUpdate);
   }, [product.id]);
 
-  // Check cart
   useEffect(() => {
     const cart = JSON.parse(localStorage.getItem('cart')) || [];
     setInCart(cart.some(item => item.id === product.id));
@@ -70,7 +68,6 @@ const ProductCard = ({ product, viewProduct }) => {
           className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
         />
 
-        {/* Side buttons */}
         <div className="absolute right-3 top-3 flex flex-col gap-2 lg:opacity-0 group-hover:opacity-100">
           <button
             onClick={handleViewProduct}
@@ -98,31 +95,26 @@ const ProductCard = ({ product, viewProduct }) => {
           </button>
         </div>
 
-        {/* Bottom Add to Cart */}
-        <div className="absolute bottom-0 w-full translate-y-full group-hover:translate-y-0">
-          <button
-            onClick={handleAddToCart}
-            className="cursor-pointer w-full bg-black py-3 text-white font-bold uppercase text-xs hover:bg-zinc-800 transition-colors"
-          >
-            Add to Cart
-          </button>
-        </div>
+
       </div>
 
-      {/* Info */}
       <div className="p-4">
-        <h3 className="text-base font-bold text-zinc-900 leading-tight">
-          {product.title}
-        </h3>
         <div className="flex items-center justify-between mt-1">
-          {product.oldPrice && (
-            <span className="text-xs font-medium text-zinc-400 line-through">
-              {product.oldPrice}tk
-            </span>
-          )}
+          <h3 className="text-base font-bold text-zinc-900 leading-tight">
+            {product.title}
+          </h3>
+
           <span className="text-base font-bold text-zinc-900">
             {product.price}tk
           </span>
+        </div>
+        <div className="w-full mt-5 border-2 border-[#291b39]/30">
+          <button
+            onClick={handleAddToCart}
+            className="cursor-pointer w-full py-4 font-bold uppercase text-sm hover:bg-[#1e2042] hover:text-white transition-colors"
+          >
+            Add to Cart
+          </button>
         </div>
       </div>
     </div>

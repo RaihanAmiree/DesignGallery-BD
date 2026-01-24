@@ -21,7 +21,6 @@ const Footer = () => {
 
   const [categories, setCategories] = useState([]);
 
-  // 🔹 Load categories dynamically
   useEffect(() => {
     fetch('/products.json')
       .then(res => res.json())
@@ -36,13 +35,11 @@ const Footer = () => {
     <footer className="bg-[#001f3f] text-white pt-20 pb-10 mt-auto font-sans border-t border-white/5 select-none">
       <div className="container mx-auto px-6 lg:px-12">
 
-        {/* Main Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
 
-          {/* Brand */}
           <div className="space-y-6">
-            <Link to="/" className="text-2xl font-black tracking-tighter hover:text-[#FFD700] transition-colors inline-block">
-              BRAND <span className="text-[#FFD700]">NAME</span>
+            <Link to="/" className="text-2xl font-black  hover:text-[#FFD700] transition-colors inline-block">
+              DESIGN GALLERY <span className="text-[#FFD700]">BD</span>
             </Link>
             <p className="text-gray-400 leading-relaxed text-sm max-w-xs">
               Your one-stop destination for premium products. We bridge the gap between digital imagination and physical reality.
@@ -61,7 +58,6 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* Quick Links */}
           <div>
             <h3 className="text-xs font-black uppercase tracking-[0.3em] text-[#FFD700] mb-8">
               Quick Links
@@ -81,7 +77,6 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* 🔥 Dynamic Categories */}
           <div>
             <h3 className="text-xs font-black uppercase tracking-[0.3em] text-[#FFD700] mb-8">
               Categories
@@ -101,7 +96,6 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Contact */}
           <div>
             <h3 className="text-xs font-black uppercase tracking-[0.3em] text-[#FFD700] mb-8">
               Contact Us
@@ -130,10 +124,9 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Bottom */}
         <div className="border-t border-white/5 pt-10 flex flex-col md:flex-row justify-between items-center gap-6">
           <p className="text-gray-500 text-[10px] uppercase tracking-widest">
-            © {new Date().getFullYear()} BrandName Inc. Built for Excellence.
+            © {new Date().getFullYear()} DesignGallery BD <br />Developed by Raihan Amiree
           </p>
           <div className="flex gap-8 text-[10px] uppercase tracking-widest text-gray-500">
             <Link to="/privacy" className="hover:text-[#FFD700]">Privacy Policy</Link>

@@ -26,7 +26,7 @@ const Accordion = () => {
     <section className="py-16 bg-[#001f3f] text-white overflow-hidden select-none">
       <div className="container mx-auto px-6">
         <div className="flex flex-col lg:flex-row items-center gap-12">
-          
+
           <div className="w-full lg:w-5/12">
             <motion.div
               initial={{ opacity: 0, x: -30 }}
@@ -37,13 +37,13 @@ const Accordion = () => {
                 Philosophy
               </span>
               <h2 className="text-3xl md:text-5xl font-bold leading-tight">
-                Crafting Your <br /> 
+                Crafting Your <br />
                 <span className="text-[#FFD700]">Dream Works.</span>
               </h2>
             </motion.div>
             <div className="relative rounded-xl overflow-hidden h-64 border border-white/10 shadow-xl">
-              <img 
-                src="/Products_Img/Workspace.jpg" 
+              <img
+                src="/Products_Img/Workspace.jpg"
                 alt="Workspace"
                 className="w-full h-full object-cover grayscale-50 hover:grayscale-0 transition-all duration-700"
               />
@@ -56,32 +56,28 @@ const Accordion = () => {
               {data.map((item, index) => (
                 <motion.div
                   key={index}
-                  className={` rounded-xl border border-white/5 transition-all duration-300 ${
-                    activeIndex === index ? 'bg-white/5' : 'bg-transparent'
-                  }`}
+                  className={` rounded-xl border border-white/5 transition-all duration-300 ${activeIndex === index ? 'bg-white/5' : 'bg-transparent'
+                    }`}
                 >
                   <button
                     onClick={() => setActiveIndex(index)}
                     className="w-full px-6 py-5 flex items-center justify-between text-left cursor-pointer"
                   >
                     <div className="flex items-center gap-6">
-                      <span className={`text-sm font-black transition-colors ${
-                        activeIndex === index ? 'text-[#FFD700]' : 'text-gray-500'
-                      }`}>
+                      <span className={`text-sm font-black transition-colors ${activeIndex === index ? 'text-[#FFD700]' : 'text-gray-500'
+                        }`}>
                         0{index + 1}
                       </span>
-                      <h4 className={`text-lg font-bold tracking-tight ${
-                        activeIndex === index ? 'text-white' : 'text-gray-400'
-                      }`}>
+                      <h4 className={`text-lg font-bold tracking-tight ${activeIndex === index ? 'text-white' : 'text-gray-400'
+                        }`}>
                         {item.title}
                       </h4>
                     </div>
-                    
+
                     <motion.div
                       animate={{ rotate: activeIndex === index ? 180 : 0 }}
-                      className={`w-6 h-6 flex items-center justify-center rounded-full border ${
-                        activeIndex === index ? 'border-[#FFD700] bg-[#FFD700] text-[#001f3f]' : 'border-white/20 text-white/20'
-                      }`}
+                      className={`w-6 h-6 flex items-center justify-center rounded-full border ${activeIndex === index ? 'border-[#FFD700] bg-[#FFD700] text-[#001f3f]' : 'border-white/20 text-white/20'
+                        }`}
                     >
                       <span className="text-xs">↓</span>
                     </motion.div>

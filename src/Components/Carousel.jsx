@@ -31,7 +31,7 @@ const Carousel = ({ wishlistItems, addToWishlist, handleAddToCart }) => {
       .then(data => {
         const filtered = data.filter(p => p.id >= 1 && p.id <= 12);
         setProductsData([...filtered, ...filtered, ...filtered]);
-        setCurrentIndex(filtered.length); 
+        setCurrentIndex(filtered.length);
         setLoading(false);
       });
   }, []);
@@ -76,16 +76,11 @@ const Carousel = ({ wishlistItems, addToWishlist, handleAddToCart }) => {
     setDragOffset(0);
   };
 
-  // Expose the navigation functions via a custom event or shared parent if needed, 
-  // but for simplicity, we will keep the UI internal to the Carousel's top bar.
-
   return (
     <div className="w-full max-w-7xl mx-auto">
-      {/* 1. Header with Title/Button and Navigation Arrows */}
       <div className="flex items-center justify-between mb-6 px-2">
         <h2 className="text-2xl font-bold text-zinc-800">Featured Products</h2>
-        
-        {/* Navigation Buttons grouped together */}
+
         <div className="flex gap-2">
           <button
             onClick={handlePrev}
@@ -111,7 +106,7 @@ const Carousel = ({ wishlistItems, addToWishlist, handleAddToCart }) => {
           ))}
         </div>
       ) : (
-        <div 
+        <div
           className="overflow-hidden touch-pan-y"
           onMouseDown={onDragStart}
           onMouseMove={onDragMove}
@@ -121,17 +116,17 @@ const Carousel = ({ wishlistItems, addToWishlist, handleAddToCart }) => {
           onTouchMove={onDragMove}
           onTouchEnd={onDragEnd}
         >
-          <div 
+          <div
             className={`flex ${isTransitioning ? 'transition-transform duration-500 cubic-bezier(0.4, 0, 0.2, 1)' : ''}`}
-            style={{ 
+            style={{
               transform: `translateX(calc(-${currentIndex * (100 / itemsToShow)}% + ${dragOffset}px))`,
               cursor: isDragging ? 'grabbing' : 'grab'
             }}
             onTransitionEnd={handleTransitionEnd}
           >
             {productsData.map((product, index) => (
-              <div 
-                key={`${product.id}-${index}`} 
+              <div
+                key={`${product.id}-${index}`}
                 className="flex-shrink-0 px-2 select-none"
                 style={{ width: `${100 / itemsToShow}%` }}
               >

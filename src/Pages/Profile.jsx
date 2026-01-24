@@ -7,10 +7,9 @@ const ProfileLayout = () => {
       <h1 className='mx-auto text-center block text-3xl md:text-5xl my-5 font-bold text-red-500'>
         Profile
       </h1>
-      
+
       <div className="max-w-7xl mx-auto px-4 py-6 md:py-10 font-sans text-black flex flex-col md:flex-row gap-6 md:gap-10">
-        
-        {/* Sidebar - Horizontal on mobile, Vertical on desktop */}
+
         <div className="w-full md:w-1/4 flex flex-row md:flex-col gap-2 md:gap-4 overflow-x-auto pb-2 md:pb-0">
           <Link
             to="info"
@@ -38,7 +37,6 @@ const ProfileLayout = () => {
           </Link>
         </div>
 
-        {/* Right Content */}
         <div className="flex-1 bg-white   rounded-sm shadow-sm border border-gray-100">
           <Outlet />
         </div>

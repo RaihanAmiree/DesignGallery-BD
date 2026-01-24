@@ -9,14 +9,14 @@ import CarouselPage from './CarouselPage'
 const Home = () => {
   return (
     <div>
-            <div className="w-full ">
-              <HeroSection></HeroSection>
-              <FeatureSection></FeatureSection>
-              <CarouselPage></CarouselPage>
-              <Branding></Branding>
-              <Identity></Identity>
-              <Comment></Comment>
-            </div>
+      <div className="w-full ">
+        <HeroSection></HeroSection>
+        <FeatureSection></FeatureSection>
+        <CarouselPage></CarouselPage>
+        <Branding></Branding>
+        <Identity></Identity>
+        <Comment></Comment>
+      </div>
     </div>
   )
 }

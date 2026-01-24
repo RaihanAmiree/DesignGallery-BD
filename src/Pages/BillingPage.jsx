@@ -1,4 +1,3 @@
-// src/Pages/BillingPage.jsx
 import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { getCart, clearCart } from "../Functions/Cart"; // your cart functions
@@ -8,7 +7,9 @@ import emailjs from "@emailjs/browser";
 const BillingPage = () => {
   const navigate = useNavigate();
   const [cartItems, setCartItems] = useState(getCart());
+   const [priceAgreed, setPriceAgreed] = useState(false);
   const [formData, setFormData] = useState({
+
     name: "",
     company: "",
     address: "",
@@ -17,16 +18,14 @@ const BillingPage = () => {
     email: "",
   });
 
-  // Update cart items if cart changes elsewhere
   useEffect(() => {
     const handleCartUpdate = () => setCartItems(getCart());
     window.addEventListener("cartUpdated", handleCartUpdate);
     return () => window.removeEventListener("cartUpdated", handleCartUpdate);
   }, []);
 
-  // Totals
   const subtotal = cartItems.reduce((acc, item) => acc + item.price * item.quantity, 0);
-  const shipping = "Free";
+  const others = "Free";
   const total = subtotal;
 
   const handleInputChange = (e) => {
@@ -34,22 +33,27 @@ const BillingPage = () => {
     setFormData((prev) => ({ ...prev, [name]: value }));
   };
 
-  const handlePlaceOrder = () => {
-    // Validate required fields
-    const requiredFields = ["name", "address", "phone", "whatsapp", "email"];
-    for (let field of requiredFields) {
-      if (!formData[field]) {
-        toast.error(`Please fill ${field} field`);
-        return;
-      }
+ const handlePlaceOrder = () => {
+  const requiredFields = ["name", "address", "phone", "whatsapp", "email"];
+
+  for (let field of requiredFields) {
+    if (!formData[field]) {
+      toast.error(`Please fill the ${field} field`);
+      return;
     }
+  }
+
+  if (!priceAgreed) {
+    toast.error("Please confirm that you understand the price is an estimate");
+    return;
+  }
+
 
     if (cartItems.length === 0) {
       toast.error("Your cart is empty!");
       return;
     }
 
-    // Create order object
     const order = {
       id: `ORD-${Date.now()}`,
       date: new Date().toLocaleDateString(),
@@ -59,7 +63,6 @@ const BillingPage = () => {
       status: "Processing",
     };
 
-    // Send email to shopkeeper
     emailjs
       .send(
         "service_u63yi7u", // replace with your EmailJS service ID
@@ -84,13 +87,11 @@ const BillingPage = () => {
         toast.error("Failed to send order email!");
       });
 
-    // Clear cart
     clearCart();
     setCartItems([]);
 
     toast.success("Order placed successfully!");
 
-    // Navigate to confirmation page
     navigate("/order-confirmation", { state: { order } });
   };
 
@@ -99,7 +100,6 @@ const BillingPage = () => {
       <h1 className="text-3xl font-medium mb-10">Billing Details</h1>
 
       <div className="flex flex-col lg:flex-row gap-20">
-        {/* Left Side: Form */}
         <div className="flex-1 space-y-6">
           {[
             { label: "Name", name: "name", required: true },
@@ -125,9 +125,7 @@ const BillingPage = () => {
           ))}
         </div>
 
-        {/* Right Side: Order Summary */}
         <div className="lg:w-112.5 pt-8">
-          {/* Cart Items */}
           <div className="space-y-6 mb-8">
             {cartItems.length === 0 ? (
               <p className="text-center text-lg text-gray-600">Your cart is empty!</p>
@@ -140,48 +138,64 @@ const BillingPage = () => {
                       {item.title} x {item.quantity}
                     </span>
                   </div>
-                  <span>${item.price * item.quantity}</span>
+                  <span>tk.{item.price * item.quantity}</span>
                 </div>
               ))
             )}
           </div>
 
-          {/* Pricing Totals */}
           <div className="space-y-4 border-b border-gray-300 pb-4 mb-4">
             <div className="flex justify-between">
               <span>Subtotal:</span>
-              <span>${subtotal}</span>
+              <span>tk.{subtotal}</span>
             </div>
             <div className="flex justify-between">
-              <span>Shipping:</span>
-              <span>{shipping}</span>
+              <span>Other Fees:</span>
+              <span>{others}</span>
             </div>
           </div>
 
           <div className="flex justify-between mb-8 font-medium">
             <span>Total:</span>
-            <span>${total}</span>
+            <span>tk.{total}</span>
           </div>
 
-          {/* Payment Options */}
           <div className="space-y-4 mb-8">
-            <div className="flex items-center gap-3">
-              <input type="radio" name="payment" id="bank" className="w-5 h-5 accent-black" />
-              <label htmlFor="bank">Online Payment</label>
+            <div className="ursor-not-allowed flex items-center gap-3 text-gray-600">
+              <input type="radio" name="payment" id="bank" className="w-5 h-5 accent-black" disabled />
+              <label htmlFor="bank">Online Payment  ( Coming Soon )</label>
             </div>
             <div className="flex items-center gap-3">
               <input type="radio" name="payment" id="cod" className="w-5 h-5 accent-black" defaultChecked />
               <label htmlFor="cod">Cash on delivery</label>
             </div>
+              <div className="flex items-start gap-3 text-sm text-gray-700 mt-2">
+    <input
+      type="checkbox"
+      id="priceConfirm"
+      className="mt-1 w-4 h-4 accent-black"
+      checked={priceAgreed}
+      onChange={(e) => setPriceAgreed(e.target.checked)}
+    />
+    <label htmlFor="priceConfirm" className="leading-relaxed">
+      I understand that the listed price is an estimate.  
+      The final price will be confirmed after discussing design preferences and requirements.
+    </label>
+  </div>
           </div>
 
-          {/* Place Order Button */}
-          <button
-            onClick={handlePlaceOrder}
-            className="bg-[#023d77] text-white px-12 py-4 rounded-sm font-medium hover:bg-[#001f3f] w-full sm:w-auto"
-          >
-            Place Order
-          </button>
+         <button
+  onClick={handlePlaceOrder}
+  disabled={!priceAgreed}
+  className={`px-12 py-4 rounded-sm font-medium w-full sm:w-auto transition
+    ${
+      priceAgreed
+        ? "bg-[#023d77] text-white hover:bg-[#001f3f]"
+        : "bg-gray-400 text-gray-200 cursor-not-allowed"
+    }`}
+>
+  Place Order
+</button>
         </div>
       </div>
     </div>

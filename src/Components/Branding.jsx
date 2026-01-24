@@ -45,7 +45,6 @@ const Branding = () => {
     <section className="py-24 bg-white overflow-hidden select-none">
       <div className="container mx-auto px-6">
 
-        {/* Header */}
         <div className="text-center max-w-3xl mx-auto mb-20">
           <motion.p
             initial={{ opacity: 0 }}
@@ -68,7 +67,6 @@ const Branding = () => {
 
         <div className="flex flex-col lg:flex-row gap-8 items-stretch">
 
-          {/* LEFT: Dynamic Categories */}
           <div className="w-full lg:w-5/12 space-y-2 cursor-pointer">
             {categories.map((service, idx) => (
               <motion.div
@@ -83,14 +81,12 @@ const Branding = () => {
                 }
                 className={`${service.color} p-6 flex items-center gap-6 cursor-pointer shadow-lg group relative overflow-hidden`}
               >
-                {/* Index */}
                 <div className="w-10 h-10 border border-white/30 flex items-center justify-center text-white shrink-0">
                   <span className="text-xs font-mono">
                     {String(idx + 1).padStart(2, '0')}
                   </span>
                 </div>
 
-                {/* Text */}
                 <div className="text-white">
                   <h4 className="font-bold uppercase tracking-wider text-sm">
                     {service.title}
@@ -103,7 +99,6 @@ const Branding = () => {
                   </p>
                 </div>
 
-                {/* Shine */}
                 <motion.div
                   className="absolute inset-0 bg-white/10 -translate-x-full group-hover:translate-x-full transition-transform duration-1000"
                 />
@@ -111,7 +106,6 @@ const Branding = () => {
             ))}
           </div>
 
-          {/* RIGHT: Static Branding Visual */}
           <motion.div
             initial={{ opacity: 0, scale: 0.95 }}
             whileInView={{ opacity: 1, scale: 1 }}
@@ -135,7 +129,7 @@ const Branding = () => {
                 <motion.img
                   whileHover={{ scale: 1.05 }}
                   transition={{ duration: 1.5 }}
-                  src="https://static.wixstatic.com/media/8a8033_680d667dfc25470fa33fc84c45fba6d7~mv2.jpg"
+                  src="/Products_Img/Logo2.png"
                   alt="Branding Portfolio"
                   className="w-full h-auto object-cover"
                 />
