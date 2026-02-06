@@ -20,10 +20,10 @@ const Contact = () => {
     e.preventDefault();
 
     emailjs.send(
-      'service_u63yi7u',      // replace with your EmailJS service ID
-      'template_ydnvupd',     // replace with your EmailJS template ID
+      'service_o7my7p1',      // replace with your EmailJS service ID
+      'template_9fzbv6w',     // replace with your EmailJS template ID
       user,                   // the data object
-      'ciLeGRFuNRHyrMN_v'       // replace with your EmailJS public key
+      'PGjVJx12VltY6xGo8'       // replace with your EmailJS public key
     )
       .then((res) => {
         toast.success('Message sent successfully!');

@@ -80,7 +80,7 @@ const ProductDetails = () => {
         <div className="lg:w-1/3">
           <h1 className="text-2xl font-semibold mb-3">{product.title}</h1>
 
-          <div className="text-2xl font-normal mb-6">${product.price}</div>
+          <div className="text-2xl font-normal mb-6">tk.{product.price}</div>
 
           <p className="text-sm leading-relaxed mb-6 border-b pb-6">
             {product.description}

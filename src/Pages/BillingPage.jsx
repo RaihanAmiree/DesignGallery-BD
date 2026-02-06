@@ -65,8 +65,8 @@ const BillingPage = () => {
 
     emailjs
       .send(
-        "service_u63yi7u", // replace with your EmailJS service ID
-        "template_umxquf6", // replace with your EmailJS template ID
+        "service_94w2pp8", // replace with your EmailJS service ID
+        "template_e2jbosj", // replace with your EmailJS template ID
         {
           order_id: order.id,
           order_date: order.date,
@@ -78,7 +78,7 @@ const BillingPage = () => {
           items: order.items.map(i => `${i.title} x ${i.quantity} - $${i.price}`).join("\n"),
           total_amount: order.total,
         },
-        "ciLeGRFuNRHyrMN_v" // replace with your EmailJS public key
+        "PGjVJx12VltY6xGo8" // replace with your EmailJS public key
       )
       .then(() => {
         toast.success("Order sent to shopkeeper!");
